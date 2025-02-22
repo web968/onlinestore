@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Oldingi kodda ".navbar-top" ishlatilgan edi, uni "nav-top" deb to‘g‘rilash kerak */
+#navbar .nav-top {
+    background-color: #290C4F;
+    padding: 10px 20px; 
+}
+#navbar .nav-top .left ul li a {
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    padding-right: 30px;
+    color: white; /* Matn oq rangda bo‘lishi uchun */
+}
+#navbar .nav-top .right a{
+    gap: 20px;
+}
+#navbar .nav-top .right a{
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    padding-left: 20px;
+    color:#FFFFFF;
+}
+#navbar .nav-top .right a .youtube{
+    font-size: 25px;
+}
