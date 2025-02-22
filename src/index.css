@@ -1,0 +1,66 @@
+ul{
+    padding: 0 !important;
+    margin: 0;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none !important;
+}
+#top {
+    background: #290C4F;
+  }
+ #top .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }  
+  #top .left ul {
+    display: flex;
+    gap: 25px;
+    margin: 5px 0;
+  }
+  #top .left ul li a {
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    color: #FFFFFF;
+  }
+  #top .right a:hover,
+  #top .left ul li a:hover{
+    color: #E026EE !important;
+    transition: 0.5s;
+  }
+  
+  #top .right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  #top .right .call a {
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #FFFFFF;
+  }
+  
+  #top .right .media a {
+    margin-left: 10px;
+    font-size: 20px;
+    color: #FFFFFF;
+  }
+  #top .right .media a .telegram{
+    font-size: 18px;
+
+  }
+  
+  @media screen and (max-width: 768px) {
+    #top{
+        display: none;
+    }
+  }
