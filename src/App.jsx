@@ -39,7 +39,7 @@ export default function App() {
           </div>
           </div>
           {/* Navbar-main */}
-          <div className="nav-main"></div>
+          <div className="nav-bottom"></div>
         </div>
       </nav>
     </>
