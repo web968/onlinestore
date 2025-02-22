@@ -5,6 +5,8 @@ export default function App() {
   return (
     <>
       <nav id="navbar">
+
+        <h1>Hello world!</h1>
         {/* Navbar-top */}
         <div className="nav-top">
           <div className="container">
