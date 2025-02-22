@@ -1,9 +1,14 @@
-import React from "react";
-import { FaPhone, FaTelegram, FaYoutube } from "react-icons/fa";
+import React, { useState } from "react";
+import { FaBasketballBall, FaPhone, FaShoppingBasket, FaShoppingCart, FaTelegram, FaYoutube } from "react-icons/fa";
 import "bootstrap/dist/css/bootstrap.min.css";
-
+import { navItems as initialNavItems } from "./util/constant";
+import { FaBasketball, FaBasketShopping } from "react-icons/fa6";
+// import { navItems } from "./util/constant";
 
 export default function App() {
+  const [navItems, setNavItems] = useState(initialNavItems);
+
+
   return (
     <>
       <div id="top">
@@ -24,8 +29,8 @@ export default function App() {
           <div className="right">
             <div className="call">
               <a href="tel:+998 94 253 40 99">
-              <FaPhone />
-              <span>+998 94 253 40 99</span>
+                <FaPhone />
+                <span>+998 94 253 40 99</span>
               </a>
             </div>
             <div className="media">
@@ -36,6 +41,28 @@ export default function App() {
                 <FaTelegram className="telegram" />
               </a>
             </div>
+          </div>
+        </div>
+      </div>
+      {/* Navbar */}
+      <div id="navbar">
+        <div className="container">
+          <div className="nav-content d-flex align-items-center justify-content-between">
+            <div className="logo">
+              <img src="/images/Logo.png" alt="COSMODROM" className="img-fluid" />
+            </div>
+            {navItems.map((item, index) => (
+              <div key={index} className="content">
+                <img src={item.image} alt="Marker" className="img-fluid" />
+                <span>{item.text}</span>
+              </div>
+            ))}
+            <button className="basket">
+              <a href="#">
+                <FaShoppingCart className="shop-basket" />
+                <span><button>1299 штук</button> На сумму 100 369 Р</span>
+              </a>
+            </button>
           </div>
         </div>
       </div>
