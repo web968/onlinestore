@@ -22,17 +22,19 @@ export default function App() {
                 </li>
               </ul>
             </div>
-            <div className="right">
+            <div className="right d-flex align-items-center">
               <a href="tel:+998942534099">
-                <FaPhone />
-                +998942534099
+                <FaPhone className="call"/>
+                <span>+998942534099</span>
               </a>
+              <div className="social-icons">
               <a href="https://youtube.com" target="_blank">
                 <FaYoutube className="youtube"/>
               </a>
               <a href="https://t.me" target="_blank">
-                <FaTelegram />
+                <FaTelegram className="telegram"/>
               </a>
+              </div>
             </div>
           </div>
           </div>
