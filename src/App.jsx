@@ -41,8 +41,7 @@ export default function App() {
           {/* Navbar-main */}
           <div className="nav-main"></div>
         </div>
-      </nav>{" "}
-      {/* <navbar> emas, <nav> ishlatildi */}
+      </nav>
     </>
   );
 }
