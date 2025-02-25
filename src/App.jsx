@@ -57,12 +57,18 @@ export default function App() {
                 <span>{item.text}</span>
               </div>
             ))}
-            <button className="basket">
-              <a href="#">
-                <FaShoppingCart className="shop-basket" />
-                <span><button>1299 штук</button> На сумму 100 369 Р</span>
+            <div className="right d-flex align-items-center">
+              <a className="tel" href="tel:+998 94 253 40 99">
+                <FaPhone />
+                <span>+998 94 253 40 99</span>
               </a>
-            </button>
+              <button className="basket">
+                <a href="#">
+                  <FaShoppingCart className="shop-basket" />
+                  <span><button>1299 штук</button> На сумму 100 369 Р</span>
+                </a>
+              </button>
+            </div>
           </div>
         </div>
       </div>

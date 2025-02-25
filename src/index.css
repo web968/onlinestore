@@ -110,6 +110,9 @@ a {
  margin: 5px 5px;
 }
 
+#navbar .tel{
+  display: none;
+}
 
 
 /* Media */
@@ -156,16 +159,16 @@ a {
   font-size: 12px;
 }
 /* //////////////// */
-#navbar button{
-  border-radius: 50%;
-}
 #navbar .basket  {
-  font-size: 10px;
-  padding: 10px 0;
+  font-size: 8px;
+  padding: 8px 0 ;
+}
+#navbar .basket a{
+  padding: 8px;
 }
 #navbar .basket a .shop-basket{
   margin: 0;
-  font-size: 25px;
+  font-size: 22px;
 }
 #navbar button a span{
   display: none;
@@ -173,11 +176,87 @@ a {
 }
 
 @media screen and (max-width: 768px) {
+  #navbar .content,
   #top {
     display: none;
   }
+#navbar .tel{
+  display: block;
+}
+    /* Navbar */
+#navbar {
+  padding: 10px 0;
+}
+#navbar .logo img{
+  width: 19vw;
+}
+#navbar .right .tel {
+color: #FFFFFF;
+padding-right: 30px;
+}
+#navbar .basket  {
+  font-size: 8px;
+  padding: 5px 0;
+}
+#navbar .basket a{
+  padding: 10px;
+}
+#navbar .basket a .shop-basket{
+  margin: 0;
+  font-size: 18px;
+}
+#navbar button a span{
+  display: none;
+}
 }
 
-@media screen and (max-width: 576px) {}
+@media screen and (max-width: 576px) {
+     /* Navbar */
+#navbar {
+  padding: 8px 0;
+}
+#navbar .logo img{
+  width: 20vw;
+}
+#navbar .right .tel {
+padding-right: 20px;
+font-size: 11px;
+}
 
-@media screen and (max-width: 320px) {}
+#navbar .basket  {
+  padding: 4px 0;
+}
+#navbar .basket a{
+  padding: 6px;
+}
+#navbar .basket a .shop-basket{
+  font-size: 15px;
+}
+}
+
+@media screen and (max-width: 320px) {
+       /* Navbar */
+#navbar {
+  padding: 4px 0;
+}
+#navbar .logo img{
+  width: 25vw;
+}
+#navbar .right .tel {
+padding: 0 17px 5px 0;
+font-size: 13px;
+}
+#navbar .right .tel span{
+  display: none;
+}
+
+#navbar .basket  {
+  padding: 1px 0;
+}
+#navbar .basket a{
+  padding: 4px;
+}
+#navbar .basket a .shop-basket{
+  font-size: 13px;
+}
+}
