@@ -31,17 +31,17 @@ ul {
     backdrop-filter: blur(50px);
     box-shadow: 0px 4px 10px 0px #0000000D;
 }
-#header .custom-swiper .text-conteiner h2{
+#header .custom-swiper .text-container h2{
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 36px;
     color: #212121;
     margin-bottom: 20px;
 }
-#header .custom-swiper .text-conteiner h2 span{
-    
+#header .custom-swiper .text-container h2 span{
+    background-color: red;
 }
-#header .custom-swiper .text-conteiner button{
+#header .custom-swiper .text-container button{
     position: absolute;
     top: 73%;
     left: 85px;
