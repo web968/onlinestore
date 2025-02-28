@@ -1,9 +1,8 @@
 import React, { useState } from "react";
-import { FaBasketballBall, FaPhone, FaShoppingBasket, FaShoppingCart, FaTelegram, FaYoutube } from "react-icons/fa";
+import { FaPhone, FaShoppingCart, FaTelegram, FaYoutube } from "react-icons/fa";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { navItems as initialNavItems } from "./util/constant";
-import { FaBasketball, FaBasketShopping } from "react-icons/fa6";
-// import { navItems } from "./util/constant";
+import Header from "./components/header/Header";
 
 export default function App() {
   const [navItems, setNavItems] = useState(initialNavItems);
@@ -54,7 +53,7 @@ export default function App() {
             {navItems.map((item, index) => (
               <div key={index} className="content">
                 <img src={item.image} alt="Marker" className="img-fluid" />
-                <span>{item.text}</span>
+                <a href="">{item.text}</a>
               </div>
             ))}
             <div className="right d-flex align-items-center">
@@ -72,6 +71,9 @@ export default function App() {
           </div>
         </div>
       </div>
+      <div id="nabbor"></div>
+      {/* Header */}
+      <Header/>
     </>
   );
 }

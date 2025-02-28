@@ -1,0 +1,56 @@
+ul {
+    padding: 0 !important;
+    margin: 0;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none !important;
+  }
+ #header{
+    padding: 150px 0;
+ }  
+ .custom-swiper .slide-content img {
+     /* position: absolute; */
+    width: 100%;
+    height: 400px; /* O'zingizga mos keladigan balandlikni tanlang */
+    position: relative;
+    object-fit: cover; /* Rasmni mos ravishda kesish */
+    border-radius: 15px;
+  }
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    padding: 10px 15px;
+    border-radius: 50%; 
+    background-color: #FFFFFF; 
+    font-size: 18px; 
+    color: #BCBCBC; 
+    backdrop-filter: blur(50px);
+    box-shadow: 0px 4px 10px 0px #0000000D;
+}
+#header .custom-swiper .text-conteiner h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+#header .custom-swiper .text-conteiner h2 span{
+    
+}
+#header .custom-swiper .text-conteiner button{
+    position: absolute;
+    top: 73%;
+    left: 85px;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    border: none;
+    background: linear-gradient(96.96deg, #FD17A1 3.55%, #A11FCE 133.18%);
+    border-radius: 40px;
+    padding: 15px 25px;
+    color: #FFFFFF;
+}

@@ -70,13 +70,16 @@ a {
 /* Navbar */
 #navbar {
   background-color: #8436E8;
+  position: fixed;
+  width: 100vw;
+  z-index: 9999;
   padding: 20px 0;
 }
 
 #navbar .content img{
   padding-right: 10px;
 }
-#navbar .content span{
+#navbar .content a{
   font-family: sans-serif;
   font-weight: 500;
   font-size: 14px;
@@ -93,8 +96,8 @@ a {
 }
 #navbar .basket a {
   font-family: sans-serif;
-  font-weight: 600;
-  font-size: 15px;
+  font-weight: 500;
+  font-size: 14px;
   color: #FFFFFF;
   padding: 20px 15px;
 }
@@ -124,7 +127,7 @@ a {
 #navbar .content img{
   padding-right: 5px;
 }
-#navbar .content span{
+#navbar .content a{
   font-size: 13px;
 }
 #navbar .basket a {
@@ -155,7 +158,7 @@ a {
 #navbar .content img{
   padding-right: 5px;
 }
-#navbar .content span{
+#navbar .content a{
   font-size: 12px;
 }
 /* //////////////// */
