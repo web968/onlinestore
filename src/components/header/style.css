@@ -67,3 +67,89 @@ ul {
     padding: 15px 25px;
     color: #FFFFFF;
 }
+
+
+
+
+
+
+
+/* Media */
+@media screen and (max-width: 1200px) {
+  #header{
+    padding: 130px 0 60px 0;
+ }  
+ .custom-swiper .slide-content img {
+    width: 100%;
+    height: 400px; /* O'zingizga mos keladigan balandlikni tanlang */
+    border-radius: 10px;
+  }
+  /* swiper right and left */
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    padding: 10px 15px;
+    font-size: 18px; 
+}
+#header .custom-swiper .text-container {
+  top: 10%;
+  left: 5%;
+}
+#header .custom-swiper .text-container h2{
+    font-size: 50px;
+    padding: 0 8px 20px 8px;
+}
+#header .custom-swiper .text-container h2 span{
+  border-radius: 10px;
+  padding: 5px 8px;
+}
+#header .custom-swiper .text-container p{
+  font-size: 16px;
+}
+#header .custom-swiper .text-container button{
+    font-size: 16px;
+    border-radius: 40px;
+    padding: 10px 20px;
+}
+
+
+
+}
+@media screen and (max-width: 992px) {
+  #header{
+    padding: 110px 0 50px 0;
+ }  
+ .custom-swiper .slide-content img {
+    width: 100%;
+    height: 300px; /* O'zingizga mos keladigan balandlikni tanlang */
+    border-radius: 8px;
+  }
+  /* swiper right and left */
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    padding: 7px 12px;
+    font-size: 15px; 
+}
+#header .custom-swiper .text-container {
+  top: 8%;
+  left: 6%;
+}
+#header .custom-swiper .text-container h2{
+    font-size: 40px;
+    padding: 0 8px 20px 8px;
+}
+#header .custom-swiper .text-container h2 span{
+  border-radius: 7px;
+  padding: 3px 8px;
+}
+#header .custom-swiper .text-container p{
+  font-size: 14px;
+}
+#header .custom-swiper .text-container button{
+    font-size: 14px;
+    padding: 8px 17px;
+}
+
+}
+@media screen and (max-width: 768px) {}
+@media screen and (max-width: 576px) {}
+@media screen and (max-width: 320px) {}
