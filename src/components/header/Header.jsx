@@ -7,6 +7,8 @@ import "swiper/css/navigation";
 import { slides } from "../../util/constant";
 import "./style.css"
 
+const colors = ["#0BB200", "#FF067E", "#D01C26", "#8436E8", "#8436E8"]; // Id ga qarab berilgan ranglar
+const textColor = ["#FFFFFF", "#FFFFFF", "#FFFFFF", "#FFFFFF", "#1A1A1A"]; // Id ga qarab berilgan ranglar
 
 export default function Header() {
     return (
@@ -21,7 +23,7 @@ export default function Header() {
                                 <div className="slide-content">
                                     <img src={slide.image} alt="Slide" className="img-fluid" />
                                     <div className="text-container">
-                                        <h2> <span>{slide.tittle1}</span> <br /> {slide.title}</h2>
+                                        <h2 style={{ color: textColor[index % colors.length] }}> <span style={{ backgroundColor: colors[index % colors.length] }}>{slide.tittle1}</span> <br /> {slide.title} <br /> {slide.title3}</h2>
                                         <p>{slide.tittle2}</p>
                                         <button>{slide.button}</button>
                                     </div>

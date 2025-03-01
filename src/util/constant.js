@@ -10,35 +10,44 @@ export const navItems = [
 ];
 export const slides = [
     {
+        id: 1,
         image: "/images/banner66.png",
         tittle1: "Эпоксидная ",
-        title: "смола для творчества",
+        title: "смола для ",
+        title3: "творчества",
         button: "Подробнее"
     },
     {
+        id: 2,
         image: "/images/banner66.png",
         tittle1: "Увлекательные ",
-        title: "развивающие опыты ",
+        title: "развивающие ",
+        title3: "опыты",
         button: "Подробнее"
     },
     {
+        id: 3,
         image: "/images/banner66.png",
         tittle1: "Аквамозаика ",
         title: "для девочек и мальчиков",
+        title3: "и мальчиков",
         button: "Подробнее"
     },
     {
+        id: 4,
         image: "/images/banner66.png",
         tittle1: "Лучшие ",
-        title: "наборы слаймов",
+        title: "наборы",
+        title3: " слаймов",
         button: "Подробнее"
     },
     {
+        id: 5,
         image: "/images/banner66.png",
         tittle1: "Бесплатная ",
         title: "доставка",
         tittle2: "Акция действует при заказе от 100 000 руб.",
-        button: "Подробнее"
+        button: "Перейти к акции"
     }
 ];
 export const categories = [
