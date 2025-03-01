@@ -29,7 +29,7 @@ export const slides = [
         id: 3,
         image: "/images/banner66.png",
         tittle1: "Аквамозаика ",
-        title: "для девочек и мальчиков",
+        title: "для девочек ",
         title3: "и мальчиков",
         button: "Подробнее"
     },
