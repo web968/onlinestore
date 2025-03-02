@@ -150,6 +150,115 @@ ul {
 }
 
 }
-@media screen and (max-width: 768px) {}
-@media screen and (max-width: 576px) {}
-@media screen and (max-width: 320px) {}
+@media screen and (max-width: 768px) {
+  #header{
+    padding: 90px 0 50px 0;
+ }  
+ .custom-swiper .slide-content img {
+    /* width: 100%; */
+    height: 250px; /* O'zingizga mos keladigan balandlikni tanlang */
+    border-radius: 5px;
+  }
+  /* swiper right and left */
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    padding: 7px 10px;
+    font-size: 12px; 
+}
+ #header .custom-swiper .text-container {
+  top: 7%;
+  left: 9%;
+} 
+#header .custom-swiper .text-container h2{
+    font-size: 20px;
+    padding: 0 0 8px 0 ;
+}
+#header .custom-swiper .text-container h2 span{
+  border-radius: 5px;
+  padding: 1px 5px;
+}
+#header .custom-swiper .text-container p{
+  font-size: 12px;
+  word-wrap: break-word;
+  width: 150px;
+}
+#header .custom-swiper .text-container button{
+  position: relative;
+  top: 50px;
+    font-size: 13px;
+    padding: 5px 12px;
+}
+
+}
+@media screen and (max-width: 576px) {
+  #header{
+    padding: 70px 0 50px 0;
+ }  
+ .custom-swiper .slide-content img {
+    /* width: 100%; */
+    border-radius: 5px;
+    height: 170px; /* O'zingizga mos keladigan balandlikni tanlang */
+  }
+  /* swiper right and left */
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    padding: 6px 8px;
+    font-size: 10px; 
+}
+ #header .custom-swiper .text-container {
+  top: 7%;
+  left: 8%;
+} 
+#header .custom-swiper .text-container h2{
+    font-size: 16px;
+    padding: 0 ;
+}
+#header .custom-swiper .text-container h2 span{
+  border-radius: 3px;
+  padding: 1px 3px;
+}
+#header .custom-swiper .text-container p{
+  font-size: 11px;
+  width: 120px;
+  margin: 0;
+}
+#header .custom-swiper .text-container button{
+  top: 25px;
+    font-size: 10px;
+    padding: 3px 10px;
+}
+
+}
+@media screen and (max-width: 320px) {
+  #header{
+    padding: 50px 0 20px 0;
+ }  
+ .custom-swiper .slide-content img {
+    /* width: 100%; */
+    border-radius: 5px;
+    height: 110px; /* O'zingizga mos keladigan balandlikni tanlang */
+  }
+  /* swiper right and left */
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  display: none;
+}
+ #header .custom-swiper .text-container {
+  top: 7%;
+  left: 7%;
+} 
+#header .custom-swiper .text-container h2{
+    font-size: 13px;
+    padding: 0 ;
+}
+#header .custom-swiper .text-container p{
+  font-size: 8px;
+  width: 100px;
+  margin: 0;
+}
+#header .custom-swiper .text-container button{
+  top: 8px;
+    font-size: 8px;
+    padding: 2px 5px;
+}
+}
