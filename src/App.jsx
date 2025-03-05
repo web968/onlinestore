@@ -3,6 +3,7 @@ import { FaPhone, FaShoppingCart, FaTelegram, FaYoutube } from "react-icons/fa";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { navItems as initialNavItems } from "./util/constant";
 import Header from "./components/header/Header";
+import Productsw from "./components/product-section/Productsw";
 
 export default function App() {
   const [navItems, setNavItems] = useState(initialNavItems);
@@ -74,6 +75,7 @@ export default function App() {
       <div id="nabbor"></div>
       {/* Header */}
       <Header/>
+      <Productsw/>
     </>
   );
 }
