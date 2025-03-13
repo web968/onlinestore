@@ -140,6 +140,10 @@ a {
   #products .swiper p {
       font-size: 9px;
   }
+  /* Hover effekti */
+  #products .swiper:hover img,
+#products .swiper:hover {
+  transform: translateY(0);
 }
 
 /* Juda kichik ekranlar (320px dan kichik) */
