@@ -57,7 +57,7 @@ ul {
   color: #1a1a1a;
   /* padding: 30px 0; */
 }
-#header .custom-swiper .text-container button{
+#header .custom-swiper .text-container a{
     font-family: sans-serif;
     font-weight: 500;
     font-size: 18px;
@@ -105,7 +105,7 @@ ul {
 #header .custom-swiper .text-container p{
   font-size: 16px;
 }
-#header .custom-swiper .text-container button{
+#header .custom-swiper .text-container a{
     font-size: 16px;
     border-radius: 40px;
     padding: 10px 20px;
@@ -144,7 +144,7 @@ ul {
 #header .custom-swiper .text-container p{
   font-size: 14px;
 }
-#header .custom-swiper .text-container button{
+#header .custom-swiper .text-container a{
     font-size: 14px;
     padding: 8px 17px;
 }
@@ -182,7 +182,7 @@ ul {
   word-wrap: break-word;
   width: 150px;
 }
-#header .custom-swiper .text-container button{
+#header .custom-swiper .text-container a{
   position: relative;
   top: 50px;
     font-size: 13px;
@@ -222,7 +222,7 @@ ul {
   width: 120px;
   margin: 0;
 }
-#header .custom-swiper .text-container button{
+#header .custom-swiper .text-container a{
   top: 25px;
     font-size: 10px;
     padding: 3px 10px;
@@ -256,7 +256,7 @@ ul {
   width: 100px;
   margin: 0;
 }
-#header .custom-swiper .text-container button{
+#header .custom-swiper .text-container a{
   top: 8px;
     font-size: 8px;
     padding: 2px 5px;

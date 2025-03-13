@@ -1,16 +1,160 @@
+/* Umumiy stillar */
 ul {
-    padding: 0 !important;
-    margin: 0;
+  padding: 0 !important;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+/* Mahsulotlar bo‘limi */
+#products {
+  padding: 40px 0;
+  background: #8436E8;
+}
+
+/* Swiper container */
+#products .swiper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Hover effekti */
+#products .swiper:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Rasmlar */
+#products .swiper img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Hoverda rasmlar biroz kattalashadi */
+#products .swiper:hover img {
+  transform: scale(1.1);
+}
+
+/* Mahsulot nomi */
+#products .swiper h3 {
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+  margin: 5px 0;
+}
+
+/* Narx */
+#products .swiper p {
+  font-size: 13px;
+  color: #777;
+}
+
+/* Swiper pagination */
+#products .swiper-pagination-bullet-active {
+  background: #0056b3;
+  opacity: 1;
+}
+
+/* Responsivlik */
+
+/* Katta ekranlar (1200px dan kichik) */
+@media screen and (max-width: 1200px) {
+  #products .swiper img {
+      width: 90px;
+      height: 90px;
   }
-  
-  li {
-    list-style: none;
+  #products .swiper h3 {
+      font-size: 13px;
   }
-  
-  a {
-    text-decoration: none !important;
+  #products .swiper p {
+      font-size: 12px;
   }
-  #products .swiper{
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* 4 tomondan soya */
-    transition: box-shadow 0.3s ease-in-out;
+}
+
+/* Planshetlar (992px dan kichik) */
+@media screen and (max-width: 992px) {
+  #products .swiper {
+      padding: 10px;
   }
+  #products .swiper img {
+      width: 70px;
+      height: 70px;
+  }
+  #products .swiper h3 {
+      font-size: 12px;
+      padding: 0 20px;
+  }
+  #products .swiper p {
+      font-size: 11px;
+  }
+}
+
+/* Kichik planshetlar va mobil telefonlar (768px dan kichik) */
+@media screen and (max-width: 768px) {
+  #products {
+      padding: 30px 0;
+  }
+  #products .swiper {
+      padding: 8px;
+  }
+  #products .swiper img {
+      width: 60px;
+      height: 60px;
+  }
+  #products .swiper h3 {
+      font-size: 11px;
+  }
+  #products .swiper p {
+      font-size: 10px;
+  }
+}
+
+/* Kichik ekranli mobil telefonlar (576px dan kichik) */
+@media screen and (max-width: 576px) {
+  #products {
+      padding: 20px 0;
+  }
+  #products .swiper img {
+      width: 50px;
+      height: 50px;
+  }
+  #products .swiper h3 {
+      font-size: 10px;
+  }
+  #products .swiper p {
+      font-size: 9px;
+  }
+}
+
+/* Juda kichik ekranlar (320px dan kichik) */
+@media screen and (max-width: 320px) {
+  #products .swiper {
+      padding: 5px;
+  }
+  #products .swiper img {
+      width: 40px;
+      height: 40px;
+  }
+  #products .swiper h3 {
+      font-size: 9px;
+  }
+  #products .swiper p {
+      font-size: 8px;
+  }
+}

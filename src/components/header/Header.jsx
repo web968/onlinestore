@@ -25,7 +25,7 @@ export default function Header() {
                                     <div className="text-container">
                                         <h2 style={{ color: textColor[index % colors.length] }}> <span style={{ backgroundColor: colors[index % colors.length] }}>{slide.tittle1}</span> <br /> {slide.title} <br /> {slide.title3}</h2>
                                         <p>{slide.tittle2}</p>
-                                        <button>{slide.button}</button>
+                                        <a href="#">{slide.button}</a>
                                     </div>
                                 </div>
                             </SwiperSlide>
