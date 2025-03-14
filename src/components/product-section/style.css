@@ -17,7 +17,13 @@ a {
   padding: 40px 0;
   background: #8436E8;
 }
-
+#products .text h2{
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 28px;
+  color: #FFFFFF;
+  padding: 15px 0 30px 0;
+}
 /* Swiper container */
 #products .swiper {
   display: flex;
@@ -85,10 +91,17 @@ a {
   #products .swiper p {
       font-size: 12px;
   }
+  #products .text h2{
+    padding: 5px 0 30px 0;
+  }
 }
 
 /* Planshetlar (992px dan kichik) */
 @media screen and (max-width: 992px) {
+  #products .text h2{
+    font-size: 25px;
+    padding: 0px 0 25px 0;
+  }
   #products .swiper {
       padding: 10px;
   }
@@ -108,7 +121,11 @@ a {
 /* Kichik planshetlar va mobil telefonlar (768px dan kichik) */
 @media screen and (max-width: 768px) {
   #products {
-      padding: 30px 0;
+      padding: 20px 0 30px 0;
+  }
+  #products .text h2{
+    font-size: 20px;
+    padding: 0px 0 20px 0;
   }
   #products .swiper {
       padding: 8px;
@@ -128,7 +145,11 @@ a {
 /* Kichik ekranli mobil telefonlar (576px dan kichik) */
 @media screen and (max-width: 576px) {
   #products {
-      padding: 20px 0;
+      padding: 15px 0 20px;
+  }
+  #products .text h2{
+    font-size: 15px;
+    padding: 0px 0 10px 0;
   }
   #products .swiper img {
       width: 50px;
@@ -148,6 +169,10 @@ a {
 
 /* Juda kichik ekranlar (320px dan kichik) */
 @media screen and (max-width: 320px) {
+  #products .text h2{
+    font-size: 12px;
+    padding: 0;
+  }
   #products .swiper {
       padding: 5px;
   }
@@ -161,4 +186,5 @@ a {
   #products .swiper p {
       font-size: 8px;
   }
+}
 }

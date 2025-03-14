@@ -20,13 +20,17 @@ export default function Productsw() {
         <>
             <div id="products">
                <div className="container">
+                <div className="text">
+                    <h2>Наши торговые марки</h2>
+                </div>
                <Swiper
                     modules={[Pagination]}
                     // pagination={{ clickable: true }}
                     spaceBetween={20}
                     slidesPerView={1}
                     breakpoints={{
-                        640: { slidesPerView: 11 },
+                        768: { slidesPerView: 3 },
+                        992: { slidesPerView: 3 },
                         1024: { slidesPerView: 5 },
                     }}
                 >
