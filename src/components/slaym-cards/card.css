@@ -29,3 +29,12 @@ ul {
     max-width: 70%;
     color: #595959;
   }
+  /* #card-slaym .cards .card {
+    border: none;
+  } */
+  #card-slaym .cards .card h2{
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    color: #1A1A1A;
+  }

@@ -6,6 +6,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { cards1 } from "../../util/constant";
 export default function SlaymCard() {
+
     return (
         <>
             <div id="card-slaym">
@@ -26,11 +27,14 @@ export default function SlaymCard() {
                                 <SwiperSlide key={card.id}>
                                     <div key={card.id} className="card">
                                         <img src={card.image} alt={card.title} className="w-100" />
+                                  <div className="card-body">
+
                                         <h2>{card.title}</h2>
                                         <p>{card.price}  <strike>{card.price2}</strike></p>
-                                       
                                         <span>{card.type}</span>
+                                        <br />
                                         <button>{card.button}</button>
+                                  </div>
                                     </div>
                                 </SwiperSlide>
                             ))}
