@@ -4,6 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { navItems as initialNavItems } from "./util/constant";
 import Header from "./components/header/Header";
 import Productsw from "./components/product-section/Productsw";
+import SlaymCard from "./components/slaym-cards/SlaymCard";
 
 export default function App() {
   const [navItems, setNavItems] = useState(initialNavItems);
@@ -76,6 +77,7 @@ export default function App() {
       {/* Header */}
       <Header/>
       <Productsw/>
+      <SlaymCard/>
     </>
   );
 }

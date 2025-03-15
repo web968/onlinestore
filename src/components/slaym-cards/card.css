@@ -1,0 +1,31 @@
+ul {
+    padding: 0 !important;
+    margin: 0;
+  }
+  li {
+    list-style: none;
+  }
+  a {
+    text-decoration: none !important;
+  }
+
+  #card-slaym{
+    padding: 50px 0;
+  }
+  #card-slaym .text{
+    padding-bottom: 20px;
+  }
+  #card-slaym .text h1{
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #1A1A1A;
+    padding-bottom: 10px;
+  }  
+  #card-slaym .text p{
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    max-width: 70%;
+    color: #595959;
+  }
