@@ -1,40 +1,95 @@
+/* Umumiy sozlamalar */
 ul {
-    padding: 0 !important;
-    margin: 0;
-  }
-  li {
-    list-style: none;
-  }
-  a {
-    text-decoration: none !important;
-  }
+  padding: 0 !important;
+  margin: 0;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none !important;
+}
 
-  #card-slaym{
-    padding: 50px 0;
-  }
-  #card-slaym .text{
-    padding-bottom: 20px;
-  }
-  #card-slaym .text h1{
-    font-family: sans-serif;
-    font-weight: 700;
-    font-size: 30px;
-    color: #1A1A1A;
-    padding-bottom: 10px;
-  }  
-  #card-slaym .text p{
-    font-family: sans-serif;
-    font-weight: 400;
-    font-size: 17px;
-    max-width: 70%;
-    color: #595959;
-  }
-  /* #card-slaym .cards .card {
-    border: none;
-  } */
-  #card-slaym .cards .card h2{
-    font-family: sans-serif;
-    font-weight: 500;
-    font-size: 17px;
-    color: #1A1A1A;
-  }
+/* Card bo‘limining asosiy padding'lari */
+#card-slaym {
+  padding: 50px 0 0 0;
+}
+#card-slaym .swiper {
+  padding: 20px 0;
+}
+#card-slaym .text {
+  padding-bottom: 20px;
+}
+#card-slaym .text h1 {
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  color: #1A1A1A;
+  padding-bottom: 10px;
+}
+#card-slaym .text p {
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  max-width: 70%;
+  color: #595959;
+}
+
+/* Kartochkaning standart holati */
+#card-slaym .cards .card {
+  border: none;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+/* Rasm uchun effekt */
+#card-slaym .cards .card img {
+  transition: transform 0.3s ease-in-out;
+  width: 100%;
+}
+
+/* Hover qilinganda kartaga faqatgina pastga tushgan yumshoq soya qo‘shiladi */
+#card-slaym .cards .card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15); /* Faqat hoverda ko‘rinadigan yumshoq soya */
+}
+
+/* Hoverda rasm kichrayadi */
+#card-slaym .cards .card:hover img {
+  transform: scale(0.9);
+}
+
+/* Hover qilinganda matn va tugmalar paydo bo‘lishi */
+#card-slaym .cards .card .card-body span,
+#card-slaym .cards .card .card-body a {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+}
+
+#card-slaym .cards .card:hover .card-body span,
+#card-slaym .cards .card:hover .card-body a {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Matn uslublari */
+#card-slaym .cards .card h2 {
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  color: #1A1A1A;
+}
+#card-slaym .cards .card p {
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  color: #1A1A1A;
+}
+#card-slaym .cards .card p strike {
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #595959;
+}
