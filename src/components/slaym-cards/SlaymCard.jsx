@@ -20,9 +20,17 @@ export default function SlaymCard() {
           <div className="cards">
             <Swiper modules={[Navigation, Pagination]}
               className="swiper"
-              slidesPerView={4}
+              slidesPerView={1}
               spaceBetween={20}
-              pagination={{ clickable: true }}
+              breakpoints={{
+                320: { slidesPerView: 2 },
+
+                576: { slidesPerView: 2 },
+                768: { slidesPerView: 3 },
+                992: { slidesPerView: 3 },
+                1024: { slidesPerView: 4 },
+            }}
+              // pagination={{ clickable: true }}
               navigation>
               {cards1.slice(1).map((card) => (
                 <SwiperSlide key={card.id}>
