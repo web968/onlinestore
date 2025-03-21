@@ -24,9 +24,7 @@ export default function SlaymCard() {
               spaceBetween={20}
               breakpoints={{
                 320: { slidesPerView: 2 },
-
-                576: { slidesPerView: 2 },
-                768: { slidesPerView: 3 },
+                576: { slidesPerView: 3 },
                 992: { slidesPerView: 3 },
                 1024: { slidesPerView: 4 },
             }}
