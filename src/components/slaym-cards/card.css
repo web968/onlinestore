@@ -212,6 +212,11 @@ a {
     font-size: 10px;
     padding: 8px 13px;
   }
+  #card-slaym .cards .card .card-body span,
+  #card-slaym .cards .card .card-body a {
+  opacity: 1;
+  visibility: visible;
+  }
 }
 @media screen and (max-width: 320px) {
   #card-slaym {
