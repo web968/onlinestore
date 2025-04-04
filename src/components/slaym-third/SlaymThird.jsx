@@ -4,8 +4,8 @@ import { Navigation, Pagination } from "swiper/modules";
 import "./card.css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import { cards1 } from "../../util/constant";
-export default function SlaymCard() {
+import { cardsthird } from "../../util/constant";
+export default function SlaymThird() {
 
   return (
     <>
@@ -13,8 +13,8 @@ export default function SlaymCard() {
         <div className="container">
           {/* Sarlavha va Tavsif */}
           <div className="text">
-            <h1 className="title">{cards1[0].titleh1}</h1>
-            <p className="description">{cards1[0].titlep}</p>
+            <h1 className="title">{cardsthird[0].titleh1}</h1>
+            <p className="description">{cardsthird[0].titlep}</p>
           </div>
           {/* Grid va Swiper */}
           <div className="cards">
@@ -30,7 +30,7 @@ export default function SlaymCard() {
             }}
               // pagination={{ clickable: true }}
               navigation>
-              {cards1.slice(1).map((card) => (
+              {cardsthird.slice(1).map((card) => (
                 <SwiperSlide key={card.id}>
                   <div key={card.id} className="card">
                     <img src={card.image} alt={card.title} className="w-100" />
@@ -39,7 +39,7 @@ export default function SlaymCard() {
                       <p>{card.price}  <strike>{card.price2}</strike></p>
                       <span>{card.type}</span>
                       <br />
-                      <a href="#" className="text-center sm-text-center">{card.button}</a>
+                      <a href="#">{card.button}</a>
                     </div>
                   </div>
                 </SwiperSlide>

@@ -6,6 +6,7 @@ import Header from "./components/header/Header";
 import Productsw from "./components/product-section/Productsw";
 import SlaymCard from "./components/slaym-cards/SlaymCard";
 import SlaymSecondCard from "./components/slaym-second/SlaymSecond";
+import SlaymThird from "./components/slaym-third/SlaymThird";
 
 export default function App() {
   const [navItems, setNavItems] = useState(initialNavItems);
@@ -80,6 +81,7 @@ export default function App() {
       <Productsw/>
       <SlaymCard/>
       <SlaymSecondCard/>
+      <SlaymThird/>
     </>
   );
 }

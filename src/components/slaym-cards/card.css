@@ -3,9 +3,11 @@ ul {
   padding: 0 !important;
   margin: 0;
 }
+
 li {
   list-style: none;
 }
+
 a {
   text-decoration: none !important;
 }
@@ -14,12 +16,15 @@ a {
 #card-slaym {
   padding: 50px 0 0 0;
 }
+
 #card-slaym .swiper {
   padding: 20px 0;
 }
+
 #card-slaym .text {
   padding-bottom: 20px;
 }
+
 #card-slaym .text h1 {
   font-family: sans-serif;
   font-weight: 700;
@@ -27,6 +32,7 @@ a {
   color: #1A1A1A;
   padding-bottom: 10px;
 }
+
 #card-slaym .text p {
   font-family: sans-serif;
   font-weight: 400;
@@ -40,7 +46,8 @@ a {
   border: none;
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
   overflow: hidden;
-  cursor: pointer;;
+  cursor: pointer;
+  ;
 }
 
 /* Rasm uchun effekt */
@@ -52,7 +59,8 @@ a {
 /* Hover qilinganda kartaga faqatgina pastga tushgan yumshoq soya qo‘shiladi */
 #card-slaym .cards .card:hover {
   transform: scale(1.05);
-  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15); /* Faqat hoverda ko‘rinadigan yumshoq soya */
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
+  /* Faqat hoverda ko‘rinadigan yumshoq soya */
 }
 
 /* Hoverda rasm kichrayadi */
@@ -68,26 +76,33 @@ a {
   font-size: 15px;
   color: #1A1A1A;
   display: -webkit-box;
-  -webkit-line-clamp: 2; /* Faqat 2 qator ko'rsatish */
+  -webkit-line-clamp: 2;
+  /* Faqat 2 qator ko'rsatish */
   -webkit-box-orient: vertical;
   overflow: hidden;
-  text-overflow: ellipsis; /* Oxirida "..." qo'shish */
-  max-width: 100%; /* Maksimal kenglik */
-  white-space: normal; /* Matnni o‘rash */
+  text-overflow: ellipsis;
+  /* Oxirida "..." qo'shish */
+  max-width: 100%;
+  /* Maksimal kenglik */
+  white-space: normal;
+  /* Matnni o‘rash */
 }
+
 #card-slaym .cards .card p {
   font-family: sans-serif;
   font-weight: 700;
   font-size: 15px;
   color: #1A1A1A;
-  
+
 }
+
 #card-slaym .cards .card p strike {
   font-family: sans-serif;
   font-weight: 400;
   font-size: 14px;
   color: #595959;
 }
+
 /* #card-slaym .cards .card .card-body {} */
 /* Hover qilinganda matn va tugmalar paydo bo‘lishi */
 #card-slaym .cards .card .card-body span,
@@ -102,21 +117,26 @@ a {
   opacity: 1;
   visibility: visible;
 }
-#card-slaym .cards .card .card-body span,
-#card-slaym .cards .cardr .card-body span{
+
+#card-slaym .cards .card .card-body span {
   font-family: sans-serif;
   font-weight: 400;
   font-size: 15px;
   color: #838383;
   display: -webkit-box;
-  -webkit-line-clamp: 2; /* Faqat 2 qator ko'rsatish */
+  -webkit-line-clamp: 2;
+  /* Faqat 2 qator ko'rsatish */
   -webkit-box-orient: vertical;
   overflow: hidden;
-  text-overflow: ellipsis; /* Oxirida "..." qo'shish */
-  max-width: 100%; /* Maksimal kenglik */
-  white-space: normal; /* Matnni o‘rash */
+  text-overflow: ellipsis;
+  /* Oxirida "..." qo'shish */
+  max-width: 100%;
+  /* Maksimal kenglik */
+  white-space: normal;
+  /* Matnni o‘rash */
 }
-#card-slaym .cards .card .card-body a{
+
+#card-slaym .cards .card .card-body a {
   font-family: sans-serif;
   font-weight: 600;
   font-size: 14px;
@@ -131,120 +151,159 @@ a {
   #card-slaym .text {
     padding-bottom: 0px;
   }
+
   #card-slaym .text h1 {
     font-size: 27px;
     padding-bottom: 10px;
   }
+
   #card-slaym .text p {
     font-size: 14px;
     max-width: 89%;
   }
+
   /* Matn uslublari */
   #card-slaym .cards .card h2 {
     font-size: 13px;
   }
+
   #card-slaym .cards .card p {
     font-size: 14px;
   }
+
   #card-slaym .cards .card p strike {
     font-size: 13px;
   }
-  #card-slaym .cards .card .card-body span{
+
+  #card-slaym .cards .card .card-body span {
     font-size: 13px;
   }
-  #card-slaym .cards .card .card-body a{
+
+  #card-slaym .cards .card .card-body a {
     font-size: 13px;
     border-radius: 30px;
     padding: 10px 16px;
   }
-  
-  
+
+
 }
+
 @media screen and (max-width: 768px) {
   #card-slaym {
     padding: 30px 0 0 0;
   }
+
   #card-slaym .swiper {
     padding: 0;
   }
+
   #card-slaym .text h1 {
     font-size: 24px;
     padding-bottom: 0px;
   }
+
   #card-slaym .text p {
     font-size: 13px;
     max-width: 100%;
   }
+
   /* Matn uslublari */
   #card-slaym .cards .card h2 {
     font-size: 12px;
   }
+
   #card-slaym .cards .card p {
     font-size: 14px;
     margin: 0 0 5px 0;
   }
+
   #card-slaym .cards .card p strike {
     font-size: 11px;
   }
-  #card-slaym .cards .card .card-body{
+
+  #card-slaym .cards .card .card-body {
     padding: 16px 5px 16px 8px;
   }
-  #card-slaym .cards .card .card-body span{
+
+  #card-slaym .cards .card .card-body span {
     font-size: 11px;
   }
-  #card-slaym .cards .card .card-body a{
+
+  #card-slaym .cards .card .card-body a {
     font-size: 11px;
     padding: 8px 13px;
   }
-  
+
 }
+
 @media screen and (max-width: 576px) {
+  #card-slaym .cards .card{
+    
+  }
+  #card-slaym .cards .card:hover {
+    transform: none !important;
+    box-shadow: none !important;
+    /* Faqat hoverda ko‘rinadigan yumshoq soya */
+  }
+  
+  /* Hoverda rasm kichrayadi */
+  #card-slaym .cards .card:hover img {
+    transform: none !important;
+  }
   #card-slaym {
     padding: 20px 0 0 0;
   }
-    #card-slaym .text h1 {
+
+  #card-slaym .text h1 {
     font-size: 20px;
   }
+
   #card-slaym .text p {
     font-size: 12px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    /* Faqat 2 qator ko'rsatish */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* Oxirida "..." qo'shish */
     max-width: 100%;
+    /* Maksimal kenglik */
+    white-space: normal;
+    /* Matnni o‘rash */
   }
-  #card-slaym .cards .card .card-body a{
+  #card-slaym .cards .card .card-body p{
+    margin: 0;
+  }
+  #card-slaym .cards .card .card-body a {
     font-size: 10px;
     padding: 8px 13px;
   }
+  #card-slaym .cards .card .card-body span{
+    display: none !important;
+  }
   #card-slaym .cards .card .card-body span,
   #card-slaym .cards .card .card-body a {
-  opacity: 1;
-  visibility: visible;
+    opacity: 1;
+    visibility: visible;
   }
 }
+
 @media screen and (max-width: 320px) {
   #card-slaym {
     padding: 20px 0 50px 0;
   }
-    #card-slaym .text h1 {
+
+  #card-slaym .text h1 {
     font-size: 15px;
   }
+
   #card-slaym .text p {
     font-size: 11px;
   }
-  #card-slaym .cards .card .card-body a{
+
+  #card-slaym .cards .card .card-body a {
     font-size: 12px;
     padding: 8px 13px;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
