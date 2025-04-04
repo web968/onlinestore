@@ -40,7 +40,7 @@ a {
   border: none;
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
   overflow: hidden;
-  cursor: pointer;
+  cursor: pointer;;
 }
 
 /* Rasm uchun effekt */
@@ -88,6 +88,7 @@ a {
   font-size: 14px;
   color: #595959;
 }
+/* #card-slaym .cards .card .card-body {} */
 /* Hover qilinganda matn va tugmalar paydo bo‘lishi */
 #card-slaym .cards .card .card-body span,
 #card-slaym .cards .card .card-body a {
